@@ -1,5 +1,21 @@
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment
 .env
-*.ipynb_checkpoints
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Dataset (VERY IMPORTANT)
 data/
+
+# OS files
+.DS_Store
+Thumbs.db
