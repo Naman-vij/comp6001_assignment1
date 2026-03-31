@@ -1,0 +1,9 @@
+path: ../dataset
+
+train: images/train
+val: images/train # (since small dataset)
+
+names:
+  0: person
+  1: handbag
+  2: bicycle
