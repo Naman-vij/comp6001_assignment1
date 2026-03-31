@@ -1,0 +1,12 @@
+path: ../datasets_v2
+
+train: images/train
+val: images/train
+
+names:
+  0: person
+  1: handbag
+  2: bicycle
+  3: car
+  4: bike
+  5: tree
