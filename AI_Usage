@@ -1,0 +1,36 @@
+# AI Assistance Log
+
+
+
+**Date:** 2026-04-01
+**Tool:** ChatGPT (OpenAI)
+**Task:** Tasks 1–5 — image deblurring, object detection, and evaluation
+
+**What was used:**
+
+* Guidance for implementing Wiener and Richardson-Lucy deblurring filters
+* Code support for handling grayscale image processing
+* Assistance with PSNR and SSIM metric computation
+* Debugging help for file paths, image loading, and saving outputs
+* YOLO object detection integration and confidence score extraction
+* Runtime (latency) measurement and comparison methods
+* Suggestions for structuring Task 3, Task 5, and report documentation
+* Help with Git usage (logs, commits, repository structure)
+
+**What I reviewed and changed:**
+
+* Verified correctness of image paths and dataset structure
+* Modified code to handle grayscale images properly
+* Adjusted normalization and data range for accurate PSNR/SSIM calculation
+* Ensured SSIM used correct parameter (`channel_axis=2`) for color images
+* Validated detection outputs and confidence score calculations
+* Removed outliers in runtime analysis (initial warm-up runs)
+* Cross-checked results with expected behavior (e.g., sharper images → better detection)
+
+**Ethical notes:**
+
+* All methods used (Wiener, Richardson-Lucy, YOLO) are standard and publicly available
+* No personal or sensitive data was used in this project
+* AI was used only for coding assistance, debugging, and conceptual understanding
+* Final analysis, interpretation, and conclusions were completed independently
+* All results were verified manually to ensure correctness and reliability
